@@ -1,11 +1,3 @@
-# AirGapped Copilot
-
-> **Snapdragon AI Lab Build & Present Challenge**  
-> *100% Offline, Privacy-First Desktop Copilot for Legal & Medical Intelligence on Snapdragon-powered Windows on ARM.*
-
----
-
-## 🌟 Executive Summary
 
 **AirGapped Copilot** is a zero-leakage, fully local retrieval-augmented generation (RAG) assistant specifically built for Snapdragon-powered HP PCs (Snapdragon X Elite, Snapdragon X Plus, and Snapdragon 8 Gen series). Designed for strictly regulated industries such as healthcare, defense, and law, AirGapped Copilot operates **100% offline**:
 
@@ -18,54 +10,8 @@
 
 ## 🏗️ Architecture Diagram
 
-```
-       ┌────────────────────────────────────────────────────────┐
-       │                   AIR-GAPPED ENVIRONMENT               │
-       │                                                        │
-       │   +------------------+                                 │
-       │   | Legal / Medical  |                                 │
-       │   |  PDF Documents   |                                 │
-       │   +--------+---------+                                 │
-       │            |                                           │
-       │            v                                           │
-       │   +--------------------+                               │
-       │   |  Document Parser   | (pypdf / pdfplumber)          │
-       │   +--------+-----------+                               │
-       │            | Chunks with page metadata                 │
-       │            v                                           │
-       │   +--------------------+                               │
-       │   | Qualcomm AI Hub    | (all-MiniLM-L6-v2 /           │
-       │   | Embedding Model    |  nomic-embed-text)            │
-       │   +--------+-----------+                               │
-       │            | Dense Vectors (384-d)                     │
-       │            v                                           │
-       │   +--------------------+                               │
-       │   | Local Vector Store | (LanceDB on-disk storage)     │
-       │   +--------+-----------+                               │
-       │            |                                           │
-       │            | Top-K Relevant Passages                   │
-       │            v                                           │
-       │   +--------------------+                               │
-       │   |  Qualcomm AI Hub   | (Llama-3.2-1B-Instruct /      │
-       │   |    SLM Model       |  Qwen2.5-0.5B-Instruct)       │
-       │   +--------+-----------+                               │
-       │            |                                           │
-       │            v                                           │
-       │   ==============================================       │
-       │   ||        QUALCOMM HEXAGON NPU              ||       │
-       │   ||   ONNX Runtime QNN Execution Provider    ||       │
-       │   ||         Target: QnnHtp.dll               ||       │
-       │   ||         Performance: burst               ||       │
-       │   ==============================================       │
-       │            |                                           │
-       │            v Grounded Answer + Citations + Latency     │
-       │   +--------------------------------------------+       │
-       │   |   PyQt6 Dark-Mode Native Desktop GUI       │       │
-       │   +--------------------------------------------+       │
-       └────────────────────────────────────────────────────────┘
-```
+<img width="347" height="672" alt="image" src="https://github.com/user-attachments/assets/3b0e13a8-78b3-4025-90d1-374352366690" />
 
----
 
 ## 📁 Repository Structure
 
