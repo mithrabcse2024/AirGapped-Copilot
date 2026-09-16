@@ -10,8 +10,9 @@
 
 ## 🏗️ Architecture Diagram
 
-<img width="347" height="672" alt="image" src="https://github.com/user-attachments/assets/3b0e13a8-78b3-4025-90d1-374352366690" />
-
+<p align="center">
+  <img src="image_1c866302.jpg" alt="Air-Gapped Document RAG Architecture" width="600">
+</p>
 
 ## 📁 Repository Structure
 
@@ -84,15 +85,6 @@ Options:
 - `--device`: Target Snapdragon device profile
 - `--create-mock-if-missing`: Creates mock weights for offline testing before credentials are configured.
 
-### 4. Launch the Native Desktop GUI
-
-Run the dark-mode PyQt6 application:
-
-```bash
-python src/app_gui.py
-```
-
----
 
 ## 💻 Hardware & NPU Execution Details
 
