@@ -1,0 +1,18 @@
+CLINICAL TRIAL & REGULATORY COMPLIANCE MEMORANDUM
+CONFIDENTIAL & PRIVILEGED ATTORNEY-CLIENT COMMUNICATION
+
+Document ID: REG-MED-2026-X89
+Date: September 8, 2026
+Subject: Phase III Clinical Protocol & Indemnification Provisions for Neuro-Regenerative Compound QX-404
+
+1. PROTOCOL & DOSAGE RECOMMENDATIONS
+The therapeutic candidate QX-404 is administered under a dual-phase regimen. The initiation phase requires an oral dosage of 25 mg twice daily for days 1 through 14. Starting on day 15, patients transition to a maintenance dose of 50 mg once daily, provided liver function enzymes (ALT/AST) remain within 1.5 times the upper limit of normal (ULN). In patients exhibiting mild renal clearance reduction (eGFR 45-59 mL/min), the dosage must be capped at 25 mg once daily without exceeding 30 consecutive days.
+
+2. CONTRAINDICATIONS & ADVERSE EVENTS
+Administration of QX-404 is strictly contraindicated in patients with known hypersensitivity to quinolone derivatives or patients currently undergoing treatment with potent CYP3A4 inhibitors (e.g., ketoconazole, clarithromycin). If grade 3 neutropenia (absolute neutrophil count < 1000/mcL) is observed, compound administration must be suspended immediately.
+
+3. LEGAL INDEMNIFICATION & LIABILITY CLAUSE
+Pursuant to Section 14.2 of the Clinical Research Master Services Agreement, Sponsor shall indemnify, defend, and hold harmless the Clinical Investigation Site, its trustees, officers, and investigators against any and all third-party claims, liabilities, or losses arising out of the administration of compound QX-404, except to the extent such liability directly results from gross negligence or willful misconduct of the Investigator.
+
+4. DATA PRIVACY & AIR-GAPPED RETENTION MANDATE
+Under Section 18.5, all patient identifiable health records (PHI) must be processed exclusively within an air-gapped, zero-cloud computing environment. Exporting patient telemetry or diagnostic matrices to external third-party cloud infrastructure is explicitly prohibited under penalty of immediate contract termination and statutory liquidated damages under HIPAA and GDPR.
